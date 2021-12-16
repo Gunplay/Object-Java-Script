@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83a8412-55cb-42f9-bbf1-1651e34fba88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.1 Объекты/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.1 Объекты/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.1 Объекты/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.1 Объекты/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.1 Объекты/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639561094248</updated>
       <workItem from="1639561095555" duration="2462000" />
-      <workItem from="1639592215097" duration="2680000" />
+      <workItem from="1639592215097" duration="3623000" />
+      <workItem from="1639637491820" duration="2063000" />
     </task>
     <servers />
   </component>
