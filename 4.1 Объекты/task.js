@@ -13,7 +13,7 @@
 // важность: 5
 // Напишите функцию isEmpty(obj), которая возвращает true, если у объекта нет свойств, иначе false.
 
-    // Должно работать так:
+// Должно работать так:
 
 //     let schedule = {
 //         //"1": "React", false
@@ -55,7 +55,6 @@
 // У нас есть объект, в котором хранятся зарплаты нашей команды:
 
 
-
 //     let salaries = {
 //         John: 100,
 //         Ann: 160,
@@ -71,7 +70,6 @@
 // alert(sum);
 
 
-
 // Умножаем все числовые свойства на 2
 // важность: 3
 // Создайте функцию multiplyNumeric(obj), которая умножает все числовые свойства объекта obj на 2.
@@ -79,28 +77,89 @@
 // Например:
 
 // до вызова функции
-    let menu = {
-        width: 200,
-        height: 300,
-        title: "My menu"
-    };
-alert (menu.width * 2);
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+//
+// let str = (obj) => {
+//     for (let key in obj) {
+//         if (typeof obj[menu.key] == 'number') {
+//             obj[menu.key] *= 2;
+//
+//         }
+//
+//     }
+//    alert( str(obj));
+// };
 
-    function multiplyNumeric(obj) {
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu",
+    age: 25,
+    game: {
+        1: "wow",
+        2: "lineage",
+        3: 2,
+    },
+};
+ function multiplyNumeric(obj) {
 
-        for(let key in obj){
-            if(!isNaN(obj[menu.key])) {
-                obj[menu.key] *= 2;
-                return menu.key;
-            }
-        }
-        alert(menu.key);
-    }
+  for ( let key in obj) {
+      if (typeof obj[key] == 'number') {
+          alert( key + " : " + obj[key] * 2 );
+      }
+      else if (obj[key] == 'string'){
+          console.log( key + " : " + menu.game(obj[key]));
+      }
+      else {
+          alert(key + " : " + obj[key] * 2 );
+      }
+  }
+
+ }
+(multiplyNumeric(menu));
 
 
 
 
 
+
+
+
+
+
+//     //console.log("menu = {");
+//     for (let key in obj) {
+//         if (typeof obj[key] == "number") {
+//             console.log (key + " : " + obj[key] * 2);
+//         }
+//
+//
+//         else
+//             console.log (key + " : " + obj[key])
+//     }
+//
+//     //console.log("};");
+// }
+//
+// (multiplyNumeric(menu));
+
+
+
+// function multiplyNumeric(obj) {
+//     for (let key in obj) {
+//         if (typeof obj[key] == 'number') {
+//             obj[key] *= 2;
+//             return key;
+//
+//         }
+
+//     }
+//
+// }
 
 
 // // после вызова функции

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83a8412-55cb-42f9-bbf1-1651e34fba88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4.2 Копирование объектов и ссылки/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2 Копирование объектов и ссылки/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2 Копирование объектов и ссылки/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.1 Объекты/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.1 Объекты/task.js" afterDir="false" />
     </list>
@@ -57,7 +54,8 @@
       <workItem from="1639592215097" duration="3623000" />
       <workItem from="1639637491820" duration="4711000" />
       <workItem from="1639660663919" duration="1931000" />
-      <workItem from="1639727053147" duration="5466000" />
+      <workItem from="1639727053147" duration="5992000" />
+      <workItem from="1639761131296" duration="6712000" />
     </task>
     <servers />
   </component>
