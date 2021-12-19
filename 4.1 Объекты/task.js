@@ -100,9 +100,9 @@ let menu = {
     title: "My menu",
     age: 25,
     game: {
-        1: "wow",
-        2: "lineage",
-        3: 2,
+        game1: "wow",
+        game2: "lineage",
+        game3: 2,
     },
 };
  function multiplyNumeric(obj) {
@@ -111,8 +111,8 @@ let menu = {
       if (typeof obj[key] == 'number') {
           alert( key + " : " + obj[key] * 2 );
       }
-      else if (obj[key] == 'string'){
-          console.log( key + " : " + menu.game(obj[key]));
+      else if (obj[key] == "string"){
+          console.log( key + " : " + menu.game.game1(obj[key]));
       }
       else {
           alert(key + " : " + obj[key] * 2 );

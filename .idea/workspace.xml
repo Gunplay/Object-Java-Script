@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83a8412-55cb-42f9-bbf1-1651e34fba88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4.3 Сборка мусора/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3 Сборка мусора/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.4 Методы объекта, this/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.4 Методы объекта, this/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.4 Методы объекта, this/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.1 Объекты/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.1 Объекты/task.js" afterDir="false" />
     </list>
@@ -56,6 +61,12 @@
       <workItem from="1639660663919" duration="1931000" />
       <workItem from="1639727053147" duration="5992000" />
       <workItem from="1639761131296" duration="6712000" />
+      <workItem from="1639768900463" duration="163000" />
+      <workItem from="1639905121100" duration="2674000" />
+      <workItem from="1639935857318" duration="1023000" />
+      <workItem from="1639936900674" duration="4612000" />
+      <workItem from="1639943466716" duration="1707000" />
+      <workItem from="1639945218999" duration="620000" />
     </task>
     <servers />
   </component>
@@ -63,6 +74,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="839" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1639907954296">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="839" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1639907954296" />
     <state x="785" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1639563349808">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
