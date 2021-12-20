@@ -26,7 +26,8 @@
 // (obj.go)();             // (2) [object Object]
 //
 // (method = obj.go)();    // (3) undefined
-//
+// f = obj.go; // вычисляется выражение (переменная f ссылается на код функции)
+// f();
 // (obj.go || obj.stop)(); // (4) undefined
 
 
@@ -41,14 +42,20 @@
 //             name: "Джон",
 //             ref() {
 //                 return this;
-//             }
+//             },
+//             lastName: "Djon Cina",
+//             ref1() {
+//                 return this;
+//             },
 //
 //         };
 //     };
 //
 // let user = makeUser();
+// let userLast = makeUser();
 //
 // alert( user.ref().name ); // Каким будет результат?
+// alert( userLast.ref1().lastName );
 
 
 // Создайте калькулятор
@@ -58,35 +65,68 @@
 //     read() (читать) запрашивает два значения и сохраняет их как свойства объекта.
 // sum() (суммировать) возвращает сумму сохранённых значений.
 // mul() (умножить) перемножает сохранённые значения и возвращает результат.
-let calculator = {
-    sum() {
-        return this.a + this.b;
-    },
+// ());
+// let calculator = {
+//     sum() {
+//         return this.a + this.b;
+//     },
+//
+//     mul() {
+//         return this.a * this.b;
+//     },
+//     dev() {
+//         return this.a / this.b;
+//     },
+//     pow() {
+//         return this.a ** this.b;
+//     },
+//
+//     read() {
+//         this.a = +prompt('a?', 0);
+//         this.b = +prompt('b?', 0);
+//
+//     }
+// };
+//
+// calculator.read();
+// alert( calculator.sum() );
+// alert( calculator.mul() );
+// alert( calculator.dev());
+// alert( calculator.pow);
+//
 
-    mul() {
-        return this.a * this.b;
-    },
-    dev() {
-        return this.a / this.b;
-    },
-    pow() {
-        return this.a ** this.b;
-    },
+// Цепь вызовов
+// важность: 2
+// Это ladder (лестница) – объект, который позволяет подниматься вверх и спускаться:
 
-    read() {
-        this.a = +prompt('a?', 0);
-        this.b = +prompt('b?', 0);
+    let ladder = {
+        step: 0,
 
-    }
-};
+        up() {
+            this.step++;
+            return this;
 
-calculator.read();
-alert( calculator.sum() );
-alert( calculator.mul() );
-alert( calculator.dev());
-alert( calculator.pow());
+        },
+        down() {
+            this.step--;
+            return this;
+        },
+        showStep() {
+            alert(this.step);
+            return this;
+        },
+    };
 
+ladder.up().up().down().showStep(); // 2
+//Теперь, если нам нужно сделать несколько последовательных вызовов, мы можем выполнить это так:
 
-// let one = prompt('Введите первое значиение', '');
-// let two = prompt('Введите первое значиение', '');
+//     ladder.up();
+// ladder.up();
+//
+// ladder.down();
+//
+// ladder.showStep(); // 1
+//Измените код методов up, down и showStep таким образом, чтобы их вызов можно было сделать по цепочке, например так:
 
+//     ladder.up().up().down().showStep(); // 1
+// Такой подход широко используется в библиотеках JavaScript.
