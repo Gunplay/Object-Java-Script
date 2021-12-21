@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83a8412-55cb-42f9-bbf1-1651e34fba88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4.5 Конструкторы, создание объектов через new/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.5 Конструкторы, создание объектов через new/scipt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.5 Конструкторы, создание объектов через new/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.4 Методы объекта, this/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.4 Методы объекта, this/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.5 Конструкторы, создание объектов через new/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.5 Конструкторы, создание объектов через new/task.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +62,8 @@
       <workItem from="1639936900674" duration="4612000" />
       <workItem from="1639943466716" duration="1707000" />
       <workItem from="1639945218999" duration="1185000" />
-      <workItem from="1640012866050" duration="10843000" />
+      <workItem from="1640012866050" duration="11019000" />
+      <workItem from="1640121132954" duration="2596000" />
     </task>
     <servers />
   </component>
