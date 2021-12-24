@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83a8412-55cb-42f9-bbf1-1651e34fba88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4.8 Преобразование объектов в примитивы/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.8 Преобразование объектов в примитивы/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.8 Преобразование объектов в примитивы/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.7 Тип данных Symbol/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.7 Тип данных Symbol/script.js" afterDir="false" />
     </list>
@@ -67,7 +70,8 @@
       <workItem from="1640123759879" duration="524000" />
       <workItem from="1640164668492" duration="236000" />
       <workItem from="1640165940995" duration="2892000" />
-      <workItem from="1640205865978" duration="1140000" />
+      <workItem from="1640205865978" duration="1970000" />
+      <workItem from="1640351808678" duration="5490000" />
     </task>
     <servers />
   </component>
@@ -79,9 +83,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="839" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1639907954296" />
-    <state x="785" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1639563349808">
+    <state x="785" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1640353441827">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="785" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1639563349808" />
+    <state x="785" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1640353441827" />
   </component>
 </project>

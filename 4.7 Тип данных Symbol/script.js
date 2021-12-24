@@ -127,10 +127,13 @@
 // let user = {
 //     [id]: 123
 // };
+// let phone = {
+//     [id]: "OnePlus",
+// };
 //
 // let clone = Object.assign({}, user);
-//
-// alert( clone[id] ); // 123
+// let cloneOnePlus = Object.assign({}, phone);
+// alert( cloneOnePlus[id] ); // 123
 // Здесь нет никакого парадокса или противоречия. Так и задумано. Идея заключается в том, что, когда мы клонируем или объединяем объекты, мы обычно хотим скопировать все свойства (включая такие свойства с ключами-символами, как, например, id в примере выше).
 
 
@@ -151,8 +154,9 @@
 // // читаем его снова и записываем в другую переменную (возможно, из другого места кода)
 // let idAgain = Symbol.for("id");
 //
+// let idElse = Symbol.for("id");
 // // проверяем -- это один и тот же символ
-// alert( id === idAgain ); // true
+// alert( id === idAgain && id === idElse ); // true
 // Символы, содержащиеся в реестре, называются глобальными символами. Если вам нужен символ, доступный везде в коде – используйте глобальные символы.
 
 // Symbol.keyFor
@@ -163,21 +167,23 @@
 // // получаем символ по имени
 //     let sym = Symbol.for("name");
 // let sym2 = Symbol.for("id");
-//
+// let pow = Symbol.for("Number");
 // // получаем имя по символу
 // alert( Symbol.keyFor(sym) ); // name
 // alert( Symbol.keyFor(sym2) ); // id
+// alert( Symbol.keyFor(pow)); // Number
 // Внутри метода Symbol.keyFor используется глобальный реестр символов для нахождения имени символа. Так что этот метод не будет работать для неглобальных символов. Если символ неглобальный, метод не сможет его найти и вернёт undefined.
 //
 //     Впрочем, для любых символов доступно свойство description.
 //
 //     Например:
 
-// let globalSymbol = Symbol.for("name");
-// let localSymbol = Symbol("name");
-//
-// alert( Symbol.keyFor(globalSymbol) ); // name, глобальный символ
-// alert( Symbol.keyFor(localSymbol) ); // undefined для неглобального символа
-//
-// alert( localSymbol.description ); // name
+let globalSymbol = Symbol.for("name");
+let localSymbol = Symbol("name");
+
+
+alert( Symbol.keyFor(globalSymbol) ); // name, глобальный символ
+alert( Symbol.keyFor(localSymbol) ); // undefined для неглобального символа
+
+alert( localSymbol.description ); // name
 
